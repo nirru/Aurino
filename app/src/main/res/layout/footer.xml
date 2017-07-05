@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/call_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Now"
+        android:gravity="center|left"
+        android:layout_centerVertical="true"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toLeftOf="@+id/send_email"-->
+        <!--android:layout_toRightOf="@+id/call_now">-->
+    <RelativeLayout
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"/>
+    <!--</RelativeLayout>-->
+    <TextView
+        android:id="@+id/send_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:gravity="center|left"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_marginRight="16dp"
+        android:textSize="16sp"/>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toLeftOf="@+id/fix_a_metting"-->
+        <!--android:layout_toRightOf="@+id/send_email">-->
+        <!--<RelativeLayout-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@android:color/white"/>-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/fix_a_metting"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Fix a metting"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:padding="10dp"-->
+        <!--android:textSize="14sp"/>-->
+
+
+
+</RelativeLayout>

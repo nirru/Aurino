@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "713710764186",
+    "firebase_url": "https://aurion-push-notification-3e723.firebaseio.com",
+    "project_id": "aurion-push-notification-3e723",
+    "storage_bucket": "aurion-push-notification-3e723.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713710764186:android:2b4cfc8552496d98",
+        "android_client_info": {
+          "package_name": "com.oxilo.aurion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713710764186-34rkvgrb9uglapk68m14mffk2k084iv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oxilo.aurion",
+            "certificate_hash": "4ce364552ff75e1d43e9d4c5a5d30fbb0d9c15c8"
+          }
+        },
+        {
+          "client_id": "713710764186-5slsdms2hif5p47fhnh9fk2dc23ekgfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPuStNTSHzs1LTGB3jgL9_KWL2D-xp4ds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713710764186-5slsdms2hif5p47fhnh9fk2dc23ekgfq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713710764186-m2n6mkics3p32k4bkvaej3al93giq14v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oxilo.aurion"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

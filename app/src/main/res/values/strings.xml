@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Aurion</string>
+    <string name="permission_phone">Phone</string>
+</resources>

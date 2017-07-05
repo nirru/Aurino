@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_common_toolbar" />
+
+    <include android:id="@+id/header"
+        layout="@layout/header"
+        android:layout_below="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </include>
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/include_footer"/>
+
+    <Button
+        android:id="@+id/office_one"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:text="Office Location 1"
+        android:layout_below="@+id/header"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/office_two"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:text="Office Location 2"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/office_one"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="16dp"
+        android:text="Email Us"
+        android:visibility="gone"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/office_two"
+        android:background="@color/colorPrimaryDark"/>
+
+
+    <include
+        android:id="@+id/include_footer"
+        layout="@layout/footer"
+        android:layout_alignParentBottom="true"
+        android:layout_height="48dp"
+        android:layout_width="match_parent">
+    </include>
+
+</RelativeLayout>

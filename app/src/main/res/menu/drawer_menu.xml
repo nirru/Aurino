@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group_1">
+
+        <item
+            android:id="@+id/about"
+            android:title="About Aurion" />
+        <item
+            android:id="@+id/free_zone"
+            android:title="Free Zone Company" />
+        <item
+            android:id="@+id/id_main_land_company"
+            android:title="Main Land Company" />
+
+        <item
+            android:id="@+id/offshore_company"
+            android:title="Offshore Company" />
+        <item
+            android:id="@+id/coorporate_identity"
+            android:title="Corporate identity" />
+        <item
+            android:id="@+id/iso_consultation"
+            android:title="ISO Consultation" />
+        <item
+            android:id="@+id/account_auditing"
+            android:title="Account &amp; Auditing" />
+        <item
+            android:id="@+id/pro_service"
+            android:title="Pro Services" />
+
+        <item
+            android:id="@+id/contact_us"
+            android:title="Contact US" />
+
+
+    </group>
+
+</menu>

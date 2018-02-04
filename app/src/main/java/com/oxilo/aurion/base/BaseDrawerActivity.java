@@ -129,8 +129,10 @@ public class BaseDrawerActivity extends BaseActivity {
             @Override
             public void run() {
                 Intent i = new Intent(BaseDrawerActivity.this,Web.class);
+//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 i.putExtra("WEB_URL",url);
                 startActivity(i);
+                finish();
             }
         }, 300);
 //        overridePendingTransition(R.anim.move_right_in_activity, R.anim.move_left_out_activity);

@@ -6,7 +6,7 @@ package com.oxilo.aurion;
 
 public class AppConstant {
 
-    public static final String BASE_URL = "http://dubaifreezonecompany.com/";
+    public static final String BASE_URL = "https://dubaifreezonecompany.com/";
 //    public static final String BASE_URL = "http://www.resourcehacker.org/";
 
 }

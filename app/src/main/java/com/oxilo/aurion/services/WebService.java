@@ -21,6 +21,12 @@ public interface WebService {
                                                           @Field("DeviceToken") String deviceToken,
                                                           @Field("deviceType") String deviceType);
 
+    @FormUrlEncoded
+    @POST("mobapp/api/api.php/deviceDetail")
+    io.reactivex.Observable<Response<ResponseBody>> deviceDetail(
+                                                          @Field("DeviceToken") String deviceToken,
+                                                          @Field("deviceType") String deviceType);
+
 //    @FormUrlEncoded
 //    @POST("projects/gargash/aurion/api/api.php/Login")
 //    io.reactivex.Observable<Response<ResponseBody>> login(@Field("username") String name,
